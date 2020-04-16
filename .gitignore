@@ -1,0 +1,64 @@
+###########################
+### backup shit         ###
+###########################
+*~
+*.bak
+~*
+###########################
+### build artifacts     ###
+###########################
+BUILD
+
+###########################
+### Windows shit        ###
+###########################
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+Desktop.ini
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+###########################
+### Altium shit         ###
+###########################
+*.PrjPCBStructure
+*.SchDocPreview
+*.PcbDocPreview
+__Previews
+*.PrjPcbStructure
+*.Dat
+*.REP 
+*.TLT
+*.LOG
+*.log
+*.htm
+*.$$$
+
+############################
+### Hyperlynx Simulation ###
+############################
+Electrical/Boards/SCT8-Board/Simulations/
+
+#useless dirs
+Project\ Logs
+Project Outputs for*
+
+#useless files
+#*.zip
+
+#History
+History
+
+#Exports, but not manual ones
+exports/*
+!exports/manual
+
+###########################
+### Python shit         ###
+###########################
+scripts/__pycache__/
+*.pyc
