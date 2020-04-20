@@ -1,0 +1,5 @@
+Manufacturer : Hongfa
+
+Distributors:
+	Arrow : 
+	Conrad : https://www.conrad.com/p/hongfa-hf118f005-1zs1136-pcb-relay-5-v-dc-8-a-1-change-over-1-pcs-629540
