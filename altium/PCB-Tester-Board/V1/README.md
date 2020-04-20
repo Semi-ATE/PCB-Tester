@@ -11,3 +11,4 @@ TODO:
 - [ ] do we really need the 5V in `Controller.SchDoc` ??? ( the 3V3 should be enough no?)
 - [ ] replace J1 with a pull-up and a (non-mounted 2 pin header) and add testpoints from bottom.
 - [ ] add a header for the I2C initialization with an FTDI cable (aka: [C232HM-DDHSL-0](/documentation/FTDI-C232HM-DDHSL-0/DS_C232HM_MPSSE_CABLE.pdf#9) (remember to put 2 points on SDA !!!)
+- [ ] add the colors of the FTDI calbe next to the header pins.
