@@ -7,7 +7,8 @@
 ###########################
 ### build artifacts     ###
 ###########################
-BUILD
+output
+!output/README.md
 
 ###########################
 ### Windows shit        ###
@@ -22,6 +23,7 @@ Desktop.ini
 *.msm
 *.msp
 *.lnk
+
 ###########################
 ### Altium shit         ###
 ###########################
@@ -29,6 +31,7 @@ Desktop.ini
 *.SchDocPreview
 *.PcbDocPreview
 __Previews
+History
 *.PrjPcbStructure
 *.Dat
 *.REP 
@@ -37,21 +40,12 @@ __Previews
 *.log
 *.htm
 *.$$$
+Project\ Logs
+Project Outputs for*
 
 ############################
 ### Hyperlynx Simulation ###
 ############################
-Electrical/Boards/SCT8-Board/Simulations/
-
-#useless dirs
-Project\ Logs
-Project Outputs for*
-
-#useless files
-#*.zip
-
-#History
-History
 
 #Exports, but not manual ones
 exports/*
@@ -60,5 +54,5 @@ exports/*
 ###########################
 ### Python shit         ###
 ###########################
-scripts/__pycache__/
+__pycache__
 *.pyc

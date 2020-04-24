@@ -395,23 +395,6 @@ GenerateClassCluster=0
 DocumentUniqueId=XLEFPSDF
 
 [Document22]
-DocumentPath=PCB-Tester-Board-V1.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=MSCMABQT
-
-[Document23]
 DocumentPath=PCB-Tester-Board-V1.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -428,7 +411,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document24]
+[Document23]
 DocumentPath=libraries\PCB-Tester-Board-V1.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -445,7 +428,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LVVYFRVA
 
-[Document25]
+[Document24]
 DocumentPath=libraries\PCB-Tester-Board-V1.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
