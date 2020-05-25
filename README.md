@@ -13,4 +13,16 @@ It consists out of the following components:
 
  ![PCB-Tester](/documentation/pictures/PCB-Tester.png)
 
+Marco: --> have a look at ATE.org
+  - Basis GUI
+    - Python
+    - Qt5.12...
+    - Qtawesome
+    - qdarkstyle
+    - pluggy
+ 
 
+
+
+
+Adam:
