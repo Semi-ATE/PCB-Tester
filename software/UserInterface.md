@@ -1,6 +1,6 @@
 # The PCB-Tester-Framework User Interface
 
-The interaction with the user will be done by means of a (touch) monitor, as shown below.
+The interaction with the user will be done by means of a touch-screen, as shown below.
 
 <p align="center">
   <img src="/documentation/pictures/PCB-Tester.png">
