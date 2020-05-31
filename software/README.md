@@ -1,6 +1,6 @@
 # The PCB-Tester-Framework.
 
-This directory and its subdirectories contain <ins>**anny and all**</ins> sources for the `PCB-Tester-Framework`.
+This directory and its subdirectories contain <ins>**any and all**</ins> sources for the `PCB-Tester-Framework`.
 
 The `PCB-Tester-Framework` is written 100% in [Python](https://www.python.org/), and it runs on the [Raspberry Pi (4b)](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/) located on the [PCB-Tester-Board](https://github.com/ate-org/PCB-Tester/tree/master/hardware/electronics/altium/PCB-Tester-Board).
 
