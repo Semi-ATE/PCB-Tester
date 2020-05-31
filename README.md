@@ -13,6 +13,10 @@ It consists out of the following components:
 
  ![PCB-Tester](/documentation/pictures/PCB-Tester.png)
 
+# Wiki
+
+https://github.com/ate-org/PCB-Tester/wiki
+
 Marco: --> have a look at ATE.org
   - Basis GUI
     - Python
