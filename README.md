@@ -1,32 +1,22 @@
 # PCB-Tester
 
-A `PCB-Tester` is a setup that is used to test a PCB.
+A `PCB-Tester` is a base setup that is used to test a PCB.
 
-The tool is used either in new production and/or repair.
+The tool is used by OEM's either in new production and/or repair.
+
+The PCB-Tester project implements such a `PCB-Tester` in open source.
 
 It consists out of the following components:
 
 * Rack --> 19", holds the 'instruments' of choice when implementing a tester for a specific PCB
-* Housing --> holds the base of the PCB-Tester (1x PCB-Tester-Board and 0 or more PCB-Relay-Boards)
+* Housing --> holds the base of the PCB-Tester (1x [PCB-Tester-Board](https://github.com/ate-org/PCB-Tester/tree/master/hardware/electronics/altium/PCB-Tester-Board) and 0 or more [PCB-Relay-Boards](https://github.com/ate-org/PCB-Tester/tree/master/hardware/electronics/altium/PCB-Relay-Board))
 * Fixture --> mounted on the `Housing`, and implements the "moving mechanics"
-* JIG --> not part of this project, belongs to a specific implementation, it is the 'needle-bed'
+* JIG --> not part of this project, belongs to a specific implementation. (iow: 'needle-bed')
+
+The whole thing looks like this:
 
  ![PCB-Tester](/documentation/pictures/PCB-Tester.png)
 
 # Wiki
 
-https://github.com/ate-org/PCB-Tester/wiki
-
-Marco: --> have a look at ATE.org
-  - Basis GUI
-    - Python
-    - Qt5.12...
-    - Qtawesome
-    - qdarkstyle
-    - pluggy
- 
-
-
-
-
-Adam:
+Further reading at the project's [wiki](https://github.com/ate-org/PCB-Tester/wiki).
