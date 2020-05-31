@@ -10,7 +10,7 @@ It consists out of the following components:
 
 * [Rack](https://github.com/ate-org/PCB-Tester/tree/master/hardware/mechanics/solidworks/rack) ➜ 19", holds the 'instruments' of choice when implementing a `PCB-tester` for a specific PCB.
 * [Housing](https://github.com/ate-org/PCB-Tester/tree/master/hardware/mechanics/solidworks/housing) ➜ The 'box' that holds the PCB-Tester (1x [PCB-Tester-Board](https://github.com/ate-org/PCB-Tester/tree/master/hardware/electronics/altium/PCB-Tester-Board) and 0 or more [PCB-Relay-Boards](https://github.com/ate-org/PCB-Tester/tree/master/hardware/electronics/altium/PCB-Relay-Board))
-* Fixture ➜ mounted on the `Housing`, and implements the "moving mechanics"
+* [Fixture](https://github.com/ate-org/PCB-Tester/tree/master/hardware/mechanics/solidworks/fixture) ➜ mounted on the `Housing`, and implements the "moving parts".
 * JIG ➜ not part of this project, belongs to a specific implementation. (iow: 'needle-bed')
 
 The whole thing looks like this:
