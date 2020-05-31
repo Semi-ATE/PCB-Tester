@@ -15,7 +15,9 @@ It consists out of the following components:
 
 The whole thing looks like this:
 
- ![PCB-Tester](/documentation/pictures/PCB-Tester.png)
+<p align="center">
+  <img src="/documentation/pictures/PCB-Tester.png">
+</p>
 
 # Wiki
 
