@@ -377,120 +377,144 @@ Name=Revision
 Value=V1.0
 
 [GeneratedDocument1]
-DocumentPath=Output\Fabrication\NC Drill\PCB-Relay-Board-V1-BoardEdgeRout.TXT
+DocumentPath=Output\Design\BOM\Bill of Materials-PCB-Relay-Board-V1.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Output\Fabrication\NC Drill\PCB-Relay-Board-V1-Plated.TXT
+DocumentPath=Output\Fabrication\NC Drill\PCB-Relay-Board-V1-BoardEdgeRout.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Output\Fabrication\NC Drill\PCB-Relay-Board-V1.DRR
+DocumentPath=Output\Fabrication\NC Drill\PCB-Relay-Board-V1-Plated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.EXTREP
+DocumentPath=Output\Fabrication\NC Drill\PCB-Relay-Board-V1.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.G1
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.G2
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.G1
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.G3
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.G2
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.G4
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.G3
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GBL
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.G4
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GBO
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GBP
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GBS
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GD1
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GG1
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GP1
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GG1
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GP2
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GP1
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GTL
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GP2
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GTO
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GTP
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GTS
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Output\Fabrication\DRC\PCB-Relay-Board-V1.html
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Output\Fabrication\NC Drill\PCB-Relay-Board-V1.LDP
+DocumentPath=.\Output\Design\DRC\PCB-Relay-Board-V1.html
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.REP
+DocumentPath=.\Output\Design\ERC\PCB-Relay-Board-V1.html
 DItemRevisionGUID=
 
 [GeneratedDocument24]
+DocumentPath=Output\Fabrication\DRC\PCB-Relay-Board-V1.html
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Output\Fabrication\NC Drill\PCB-Relay-Board-V1.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.REP
+DItemRevisionGUID=
+
+[GeneratedDocument27]
 DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.RUL
 DItemRevisionGUID=
 
 [Parameter1]
-Name=MajorRevision
-Value=1
-
-[Parameter2]
-Name=MinorRevision
-Value=0
-
-[Parameter3]
-Name=Project_Name
+Name=Project
 Value=PCB-Relay-Board
 
-[Parameter4]
+[Parameter2]
+Name=Team
+Value=Test Engineering
+
+[Parameter3]
 Name=Project_Number
 Value=U33111
 
+[Parameter4]
+Name=Project_Name
+Value=PCB-Relay-Board
+
 [Parameter5]
-Name=Team
-Value=Test Engineering
+Name=MinorRevision
+Value=0
+
+[Parameter6]
+Name=MajorRevision
+Value=1
+
+[Parameter7]
+Name=DocumentNumber
+Value=U33111
+
+[Parameter8]
+Name=Board
+Value=PCB-Relay-Board
 
 [Configuration1]
 Name=Sources
