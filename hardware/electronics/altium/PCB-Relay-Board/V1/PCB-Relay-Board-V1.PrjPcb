@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for PCB-Relay-Board-V1
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -225,23 +225,6 @@ GenerateClassCluster=0
 DocumentUniqueId=OKGVRLNC
 
 [Document12]
-DocumentPath=libraries\PCB-Relay-Board-V1.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=KREBYSAE
-
-[Document13]
 DocumentPath=schematics\Power.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -258,7 +241,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document14]
+[Document13]
 DocumentPath=jobs\Design.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -275,7 +258,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document15]
+[Document14]
 DocumentPath=jobs\Fabrication.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -292,7 +275,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document16]
+[Document15]
 DocumentPath=jobs\Assembly.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -309,7 +292,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document17]
+[Document16]
 DocumentPath=Fabrication.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -325,6 +308,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document17]
+DocumentPath=libraries\PCB-Relay-Board-V1.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=FSVSVKRN
 
 [ProjectVariant1]
 UniqueID=1711DB5F-720C-44A9-99C2-D063720FDEDC
@@ -377,195 +377,99 @@ Name=Revision
 Value=V1.0
 
 [GeneratedDocument1]
-DocumentPath=.\Output\Fabrication\NC Drill\PCB-Relay-Board-V1-BoardEdgeRout.TXT
+DocumentPath=Output\Fabrication\NC Drill\PCB-Relay-Board-V1-BoardEdgeRout.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=.\Output_Fabrication\NC Drill\PCB-Relay-Board-V1-BoardEdgeRout.TXT
+DocumentPath=Output\Fabrication\NC Drill\PCB-Relay-Board-V1-Plated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=.\Output\Fabrication\NC Drill\PCB-Relay-Board-V1-Plated.TXT
+DocumentPath=Output\Fabrication\NC Drill\PCB-Relay-Board-V1.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=.\Output_Fabrication\NC Drill\PCB-Relay-Board-V1-Plated.TXT
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=.\Output\Fabrication\NC Drill\PCB-Relay-Board-V1.DRR
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.G1
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=.\Output_Fabrication\NC Drill\PCB-Relay-Board-V1.DRR
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.G2
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=.\Output\Fabrication\Gerber\PCB-Relay-Board-V1.EXTREP
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.G3
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=.\Output_Fabrication\Gerber\PCB-Relay-Board-V1.EXTREP
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.G4
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=.\Output\Fabrication\Gerber\PCB-Relay-Board-V1.G1
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=.\Output_Fabrication\Gerber\PCB-Relay-Board-V1.G1
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=.\Output\Fabrication\Gerber\PCB-Relay-Board-V1.G2
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=.\Output_Fabrication\Gerber\PCB-Relay-Board-V1.G2
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=.\Output\Fabrication\Gerber\PCB-Relay-Board-V1.G3
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=.\Output_Fabrication\Gerber\PCB-Relay-Board-V1.G3
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GG1
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=.\Output\Fabrication\Gerber\PCB-Relay-Board-V1.G4
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GP1
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=.\Output_Fabrication\Gerber\PCB-Relay-Board-V1.G4
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GP2
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=.\Output\Fabrication\Gerber\PCB-Relay-Board-V1.GBL
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=.\Output_Fabrication\Gerber\PCB-Relay-Board-V1.GBL
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=.\Output\Fabrication\Gerber\PCB-Relay-Board-V1.GBO
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=.\Output_Fabrication\Gerber\PCB-Relay-Board-V1.GBO
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=.\Output\Fabrication\Gerber\PCB-Relay-Board-V1.GBP
+DocumentPath=Output\Fabrication\DRC\PCB-Relay-Board-V1.html
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=.\Output_Fabrication\Gerber\PCB-Relay-Board-V1.GBP
+DocumentPath=Output\Fabrication\NC Drill\PCB-Relay-Board-V1.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=.\Output\Fabrication\Gerber\PCB-Relay-Board-V1.GBS
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.REP
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=.\Output_Fabrication\Gerber\PCB-Relay-Board-V1.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=.\Output\Fabrication\Gerber\PCB-Relay-Board-V1.GD1
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=.\Output_Fabrication\Gerber\PCB-Relay-Board-V1.GD1
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=.\Output\Fabrication\Gerber\PCB-Relay-Board-V1.GG1
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=.\Output_Fabrication\Gerber\PCB-Relay-Board-V1.GG1
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=.\Output\Fabrication\Gerber\PCB-Relay-Board-V1.GP1
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=.\Output_Fabrication\Gerber\PCB-Relay-Board-V1.GP1
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=.\Output\Fabrication\Gerber\PCB-Relay-Board-V1.GP2
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=.\Output_Fabrication\Gerber\PCB-Relay-Board-V1.GP2
-DItemRevisionGUID=
-
-[GeneratedDocument33]
-DocumentPath=.\Output\Fabrication\Gerber\PCB-Relay-Board-V1.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument34]
-DocumentPath=.\Output_Fabrication\Gerber\PCB-Relay-Board-V1.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument35]
-DocumentPath=.\Output\Fabrication\Gerber\PCB-Relay-Board-V1.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument36]
-DocumentPath=.\Output_Fabrication\Gerber\PCB-Relay-Board-V1.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument37]
-DocumentPath=.\Output\Fabrication\Gerber\PCB-Relay-Board-V1.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument38]
-DocumentPath=.\Output_Fabrication\Gerber\PCB-Relay-Board-V1.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument39]
-DocumentPath=.\Output\Fabrication\Gerber\PCB-Relay-Board-V1.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument40]
-DocumentPath=.\Output_Fabrication\Gerber\PCB-Relay-Board-V1.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument41]
-DocumentPath=.\Output\Fabrication\DRC\PCB-Relay-Board-V1.html
-DItemRevisionGUID=
-
-[GeneratedDocument42]
-DocumentPath=.\Output_Fabrication\DRC\PCB-Relay-Board-V1.html
-DItemRevisionGUID=
-
-[GeneratedDocument43]
-DocumentPath=.\Output\Fabrication\NC Drill\PCB-Relay-Board-V1.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument44]
-DocumentPath=.\Output_Fabrication\NC Drill\PCB-Relay-Board-V1.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument45]
-DocumentPath=.\Output\Fabrication\Gerber\PCB-Relay-Board-V1.REP
-DItemRevisionGUID=
-
-[GeneratedDocument46]
-DocumentPath=.\Output_Fabrication\Gerber\PCB-Relay-Board-V1.REP
-DItemRevisionGUID=
-
-[GeneratedDocument47]
-DocumentPath=.\Output\Fabrication\Gerber\PCB-Relay-Board-V1.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument48]
-DocumentPath=.\Output_Fabrication\Gerber\PCB-Relay-Board-V1.RUL
+DocumentPath=Output\Fabrication\Gerber\PCB-Relay-Board-V1.RUL
 DItemRevisionGUID=
 
 [Parameter1]
@@ -635,7 +539,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for PCB-Relay-Board-V1
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
