@@ -10,6 +10,6 @@
 | References | Mechanical 17 | Mechanical 23 |
 | Measurements | Mechanical 18 | Mechanical 22 |
 | Courtyard | Mechanical 5 | Mechanical 6 |
-
+| Designator | Mechanical 9 | Mechanical 10 |
 
 This directory holds an entry for all the PCB's that make up the `PCB-Tester`
