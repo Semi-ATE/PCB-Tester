@@ -497,23 +497,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document28]
-DocumentPath=jobs\Assembly.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document29]
 DocumentPath=jobs\Design.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -530,8 +513,25 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document30]
+[Document29]
 DocumentPath=jobs\Fabrication.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document30]
+DocumentPath=jobs\Assembly.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -565,44 +565,44 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Parameter1]
-Name=U_Number
-Value=U33110
+Name=A_Number
+Value=A33003
 
 [Parameter2]
-Name=Team
-Value=Test Engineering
-
-[Parameter3]
-Name=Project_Name
-Value=PCB-Tester
-
-[Parameter4]
-Name=Project_Number
-Value=U33110
-
-[Parameter5]
-Name=Project
-Value=PCB-Tester
-
-[Parameter6]
-Name=MinorRevision
-Value=0
-
-[Parameter7]
-Name=MajorRevision
-Value=1
-
-[Parameter8]
-Name=BoardNumber
-Value=U33110
-
-[Parameter9]
 Name=Board
 Value=PCB-Tester-Board
 
+[Parameter3]
+Name=BoardNumber
+Value=U33110
+
+[Parameter4]
+Name=MajorRevision
+Value=1
+
+[Parameter5]
+Name=MinorRevision
+Value=0
+
+[Parameter6]
+Name=Project
+Value=PCB-Tester
+
+[Parameter7]
+Name=Project_Name
+Value=PCB-Tester
+
+[Parameter8]
+Name=Project_Number
+Value=U33110
+
+[Parameter9]
+Name=Team
+Value=Test Engineering
+
 [Parameter10]
-Name=A_Number
-Value=A33003
+Name=U_Number
+Value=U33110
 
 [Configuration1]
 Name=Sources
@@ -1276,6 +1276,36 @@ OutputName11=Specctra Design PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=Ansoft Neutral
+OutputName12=Ansoft Neutral (AutoPCB)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=HyperLynx
+OutputName13=HyperLynx (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=Orcad v7 Capture Design
+OutputName14=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=P-CAD ASCII
+OutputName15=P-CAD ASCII (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD V16 Schematic Design
+OutputName16=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=SiSoft
+OutputName17=SiSoft (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
