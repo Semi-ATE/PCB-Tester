@@ -331,68 +331,68 @@ DocumentPath=Output\Design\BOM\Bill of Materials-PCB-Relay-Board-V1.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=.\Output\Design\DRC\PCB-Relay-Board-V1.html
+DocumentPath=Output\Design\DRC\PCB-Relay-Board-V1.html
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=.\Output\Design\ERC\PCB-Relay-Board-V1.html
+DocumentPath=Output\Design\ERC\PCB-Relay-Board-V1.html
 DItemRevisionGUID=
 
 [Parameter1]
+Name=A_Number
+Value=PCB-Tester
+
+[Parameter2]
+Name=Board
+Value=PCB-Relay-Board
+
+[Parameter3]
 Name=CheckedBy
 Value=Mörz
 
-[Parameter2]
-Name=DrawnBy
-Value=Rudziński
-
-[Parameter3]
-Name=Engineer
-Value=Hören
-
 [Parameter4]
-Name=U_Number
+Name=DocumentNumber
 Value=U33111
 
 [Parameter5]
-Name=Team
-Value=Test Engineering
+Name=DrawnBy
+Value=Rudziński
 
 [Parameter6]
-Name=Revision
-Value=V1.0
+Name=Engineer
+Value=Hören
 
 [Parameter7]
-Name=Project_Number
-Value=U33111
+Name=MajorRevision
+Value=1
 
 [Parameter8]
-Name=Project_Name
-Value=PCB-Relay-Board
+Name=MinorRevision
+Value=0
 
 [Parameter9]
 Name=Project
 Value=PCB-Relay-Board
 
 [Parameter10]
-Name=MinorRevision
-Value=0
-
-[Parameter11]
-Name=MajorRevision
-Value=1
-
-[Parameter12]
-Name=DocumentNumber
-Value=U33111
-
-[Parameter13]
-Name=Board
+Name=Project_Name
 Value=PCB-Relay-Board
 
+[Parameter11]
+Name=Project_Number
+Value=U33111
+
+[Parameter12]
+Name=Revision
+Value=V1.0
+
+[Parameter13]
+Name=Team
+Value=Test Engineering
+
 [Parameter14]
-Name=A_Number
-Value=PCB-Tester
+Name=U_Number
+Value=U33111
 
 [Configuration1]
 Name=Sources
@@ -1445,8 +1445,8 @@ UpdateToLatestRevision=1
 PartTypes=0
 
 [NetInfos]
-Net1=NetName=LED1|NetColor=$006E6EFF
-Net2=NetName=LED2|NetColor=$006E6EFF
+Net1=NetName=3V3IO|NetColor=$0000BE00
+Net2=NetName=SMBUS.VDDIO|NetColor=$0000BE00
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
