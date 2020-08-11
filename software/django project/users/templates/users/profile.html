@@ -1,0 +1,19 @@
+{% extends "index/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <div class="content-section">
+    <div class="media">
+        <div class="media-body">
+          <h2 class="account-heading">Username: {{ customuser.username }}</h2>
+          <br/>
+          <p class="text-secondary">Permissions: </p>
+          <p class="text-secondary">
+              {% for permission in customuser.permission %}
+                  {{permission.name}} <br />
+              {% endfor %}
+          </p>
+        </div>
+        </div>
+      <!-- FORM HERE -->
+    </div>
+{% endblock content %}

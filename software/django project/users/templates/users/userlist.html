@@ -1,0 +1,48 @@
+{% extends "index/base.html" %}
+{% block css %}
+<style>
+#tablediv{
+    display: inline-block
+}
+</style>
+{% endblock css %}
+{% block content %}
+    <div class="content-section" id="tablediv">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th scope="col">Userid</th>
+          <th scope="col">Username</th>
+          <th scope="col">Hashed Password</th>
+          <th scope="col">Delete User</th>
+          <th scope="col">Set Password</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for user in userlist %}
+            <tr>
+              <th scope="row">{{ user.id }}</th>
+              <td>{{ user.username|truncatechars:20 }}</td>
+              <td>{{ user.psk|truncatechars:20 }}</td>
+              <td>
+                  <form action="{% url 'userlist' %}" method="post">
+                    {% csrf_token %}
+                    <input type="hidden" name="userid" value="{{ user.id }}">
+                    <input type="hidden" name="delete" value="True">
+                    <input class="btn btn-outline-danger" type="submit" value="Delete">
+                  </form>
+              </td>
+              <td>
+                  <form action="{% url 'userlist' %}" method="post">
+                    {% csrf_token %}
+                    <input type="hidden" name="userid" value="{{ user.id }}">
+                    <input type="hidden" name="change" value="True">
+                    <input class="btn btn-outline-info" type="submit" value="Set PSK">
+                  </form>
+              </td>
+            </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    </div>
+{% endblock content %}
