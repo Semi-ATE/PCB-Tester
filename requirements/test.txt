@@ -1,1 +1,7 @@
-
+mock
+pytest
+pytest-cov
+pytest-mock
+coverage
+check-manifest
+pre-commit
