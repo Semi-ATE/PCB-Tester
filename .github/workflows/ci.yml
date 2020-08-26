@@ -1,17 +1,12 @@
 name: Linux CI
 
 on:
-  push:
+  release:
     branches:
-      - "master"
-
-  pull_request:
-    branches:
-      - "master"
-
+      - "v*"    
 jobs:
   build:
-    name: ci
+    name: cd
     runs-on: ubuntu-latest
     env:
       CI: 'true'
@@ -38,13 +33,11 @@ jobs:
         run: |
           conda info
           conda list
-#      - name: Run manifest checks
-#        shell: bash -l {0}
-#        run: check-manifest
-#      - name: Run tests
-#        shell: bash -l {0}
+#      - name: build package
 #        run: |
-#          xvfb-run --auto-servernum pytest tests/ATE/data --cov=ATE
-#          xvfb-run --auto-servernum pytest tests/ATE/TCC --cov=ATE
-#          xvfb-run --auto-servernum pytest tests/ATE/spyder --cov=ATE
-#          xvfb-run --auto-servernum pytest tests/ATE/TES/apps --cov=ATE
+#          conda-build .........
+#      - name: Upload the Build Artifacts
+#        uses: actions/upload-artifact@v2.1.4
+#        with:
+#          # Artifact name
+#          pcb-tester.asdf 
