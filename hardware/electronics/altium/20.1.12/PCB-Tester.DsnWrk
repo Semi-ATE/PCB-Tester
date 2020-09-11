@@ -1,6 +1,6 @@
 [ProjectGroup]
 Version=1.0
 [Project1]
-ProjectPath=PCB-Relay-Board\V1\PCB-Relay-Board-V1.PrjPcb
+ProjectPath=PCB-Tester-Board\PCB-Tester-Board.PrjPcb
 [Project2]
-ProjectPath=PCB-Tester-Board\V1\PCB-Tester-Board-V1.PrjPcb
+ProjectPath=PCB-Tester-Relay-Board\PCB-Tester-Relay-Board.PrjPcb
