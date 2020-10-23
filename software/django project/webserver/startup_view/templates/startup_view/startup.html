@@ -1,0 +1,27 @@
+{% extends "index/base.html" %}
+{% block content %}
+<article class="media">
+<div class="container">
+  <div class="row content-section">
+    <div class="col">
+      <strong>Startup state:</strong><br>
+        {{startupstate}}
+    </div>
+  </div>
+  <div class="row content-section">
+    <div class="col">
+      <strong>Startup message:</strong><br>
+      <div style="overflow:auto; height:100%;">
+        <textarea style="width:100%; height:400px; box-sizing: border-box; resize: none;" class="form-control-plaintext" id="resultlog" readonly>{% if errormessage %}{{ errormessage|safe }}{% endif %}</textarea>
+      </div>
+    </div>
+  </div>
+</div>
+</article>
+{% endblock content %}
+{% block javascript %}
+<script>
+//TODO
+console.log(document.querySelector('#resultlog').value);
+</script>
+{% endblock javascript %}

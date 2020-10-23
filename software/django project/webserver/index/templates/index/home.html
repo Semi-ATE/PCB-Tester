@@ -1,0 +1,30 @@
+{% extends "index/base.html" %}
+{% block css%}
+<style>
+img {
+    max-width: 100px
+}
+
+@media only screen and (min-width: 330px) {
+    img {
+        max-width: 250px
+    }
+}
+
+@media only screen and (min-width: 760px) {
+    img {
+        max-width: 400px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    img {
+        max-width: 600px;
+    }
+}
+</style>
+{% endblock css%}
+{% block content %}
+<div class="content-section">
+    {{ github|safe }}
+</div>
+{% endblock content %}
