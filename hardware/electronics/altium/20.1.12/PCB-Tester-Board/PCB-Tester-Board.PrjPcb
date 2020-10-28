@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for PCB-Tester-Board
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -598,23 +598,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document34]
-DocumentPath=BOM_template.xlsx
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
 [GeneratedDocument1]
 DocumentPath=Output\Assembly\BOM\Bill of Materials-PCB-Tester-Board.xlsx
 DItemRevisionGUID=
@@ -624,39 +607,39 @@ DocumentPath=Output\Design\BOM\Bill of Materials-PCB-Tester-Board.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=.\Output\Assembly\Gerber\PCB-Tester-Board.EXTREP
+DocumentPath=Output\Assembly\Gerber\PCB-Tester-Board.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=.\Output\Assembly\Gerber\PCB-Tester-Board.GBP
+DocumentPath=Output\Assembly\Gerber\PCB-Tester-Board.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=.\Output\Assembly\Gerber\PCB-Tester-Board.GD1
+DocumentPath=Output\Assembly\Gerber\PCB-Tester-Board.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=.\Output\Assembly\Gerber\PCB-Tester-Board.GG1
+DocumentPath=Output\Assembly\Gerber\PCB-Tester-Board.GG1
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=.\Output\Assembly\Gerber\PCB-Tester-Board.GTP
+DocumentPath=Output\Assembly\Gerber\PCB-Tester-Board.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=.\Output\Design\DRC\PCB-Tester-Board.html
+DocumentPath=Output\Design\DRC\PCB-Tester-Board.html
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=.\Output\Design\ERC\PCB-Tester-Board.html
+DocumentPath=Output\Design\ERC\PCB-Tester-Board.html
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=.\Output\Assembly\Gerber\PCB-Tester-Board.REP
+DocumentPath=Output\Assembly\Gerber\PCB-Tester-Board.REP
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=.\Output\Assembly\Gerber\PCB-Tester-Board.RUL
+DocumentPath=Output\Assembly\Gerber\PCB-Tester-Board.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument12]
@@ -664,52 +647,88 @@ DocumentPath=Project Outputs for PCB-Tester-Board\PCB-Tester-Board.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=.\Output\Assembly\Pick Place\Pick Place for PCB-Tester-Board.txt
+DocumentPath=Output\Assembly\Pick Place\Pick Place for PCB-Tester-Board.txt
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=.\Output\Fabrication\Parts\SupportBlock.STEP
+DocumentPath=.\..\..\..\..\..\output\Parts\Parts\SupportBlock.STEP
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=.\Output\Fabrication\Parts\SupportPost.STEP
+DocumentPath=.\..\..\..\..\..\output\Parts\SupportBlock.STEP
 DItemRevisionGUID=
 
 [GeneratedDocument16]
+DocumentPath=.\Output\Fabrication\Parts\SupportBlock.STEP
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Output\Fabrication\Parts\SupportBlock.STEP
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=.\..\..\..\..\..\output\Parts\Parts\SupportPost.STEP
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=.\..\..\..\..\..\output\Parts\SupportPost.STEP
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=.\Output\Fabrication\Parts\SupportPost.STEP
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Output\Fabrication\Parts\SupportPost.STEP
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=.\..\..\..\..\..\output\Parts\Parts\Supports.PDF
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=.\..\..\..\..\..\output\Parts\Supports.PDF
+DItemRevisionGUID=
+
+[GeneratedDocument24]
 DocumentPath=.\Output\Fabrication\Parts\Supports.PDF
 DItemRevisionGUID=
 
+[GeneratedDocument25]
+DocumentPath=Output\Fabrication\Parts\Supports.PDF
+DItemRevisionGUID=
+
 [Parameter1]
-Name=Project_CheckedBy
-Value=Mörz
+Name=Project_Team
+Value=Semi-ATE
 
 [Parameter2]
-Name=Project_DrawnBy
-Value=Rudziński
+Name=Project_Revision
+Value=V1.1
 
 [Parameter3]
-Name=Project_Engineer
-Value=Hören
-
-[Parameter4]
-Name=Project_Name
-Value=PCB-Tester-Board
-
-[Parameter5]
-Name=Project_Number
-Value=U33110
-
-[Parameter6]
 Name=Project_Repository
 Value=https://github.com/Semi-ATE/PCB-Tester
 
+[Parameter4]
+Name=Project_Number
+Value=U33110
+
+[Parameter5]
+Name=Project_Name
+Value=PCB-Tester-Board
+
+[Parameter6]
+Name=Project_Engineer
+Value=Hören
+
 [Parameter7]
-Name=Project_Revision
-Value=V1.0
+Name=Project_DrawnBy
+Value=Rudziński
 
 [Parameter8]
-Name=Project_Team
-Value=Semi-ATE
+Name=Project_CheckedBy
+Value=Mörz
 
 [Configuration1]
 Name=Sources
@@ -758,7 +777,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for PCB-Tester-Board
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs

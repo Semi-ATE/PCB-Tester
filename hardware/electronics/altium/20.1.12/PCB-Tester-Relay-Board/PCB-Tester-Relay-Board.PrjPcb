@@ -327,148 +327,100 @@ GenerateClassCluster=0
 DocumentUniqueId=OKGVRLNC
 
 [GeneratedDocument1]
-DocumentPath=Output\Assembly\BOM\Bill of Materials-PCB-Relay-Board.xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Output\Design\BOM\Bill of Materials-PCB-Relay-Board.xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument3]
 DocumentPath=Output\Assembly\BOM\Bill of Materials-PCB-Tester-Relay-Board.xlsx
 DItemRevisionGUID=
 
-[GeneratedDocument4]
+[GeneratedDocument2]
 DocumentPath=Output\Design\BOM\Bill of Materials-PCB-Tester-Relay-Board.xlsx
 DItemRevisionGUID=
 
+[GeneratedDocument3]
+DocumentPath=..\..\..\..\..\output\PCB-Tester-Relay-Board\PCB\Design\BOM\Bill of Materials-PCB-Tester-Relay-Board.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Output\Assembly\Gerber\PCB-Tester-Relay-Board.EXTREP
+DItemRevisionGUID=
+
 [GeneratedDocument5]
-DocumentPath=Output\Assembly\Gerber\PCB-Relay-Board.EXTREP
+DocumentPath=Output\Assembly\Gerber\PCB-Tester-Relay-Board.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Output\Assembly\Gerber\PCB-Relay-Board.GBP
+DocumentPath=Output\Assembly\Gerber\PCB-Tester-Relay-Board.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Output\Assembly\Gerber\PCB-Relay-Board.GD1
+DocumentPath=Output\Assembly\Gerber\PCB-Tester-Relay-Board.GG1
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Output\Assembly\Gerber\PCB-Relay-Board.GG1
+DocumentPath=Output\Assembly\Gerber\PCB-Tester-Relay-Board.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Output\Assembly\Gerber\PCB-Relay-Board.GTP
+DocumentPath=.\..\..\..\..\..\output\PCB-Tester-Relay-Board\PCB\Design\DRC\PCB-Tester-Relay-Board.html
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Output\Design\DRC\PCB-Relay-Board.html
+DocumentPath=.\..\..\..\..\..\output\PCB-Tester-Relay-Board\PCB\Design\ERC\PCB-Tester-Relay-Board.html
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Output\Design\ERC\PCB-Relay-Board.html
+DocumentPath=Output\Design\DRC\PCB-Tester-Relay-Board.html
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Output\Assembly\Gerber\PCB-Relay-Board.REP
+DocumentPath=Output\Design\ERC\PCB-Tester-Relay-Board.html
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Output\Assembly\Gerber\PCB-Relay-Board.RUL
+DocumentPath=Output\Assembly\Gerber\PCB-Tester-Relay-Board.REP
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Output\PCB-Relay-Board.xls
+DocumentPath=Output\Assembly\Gerber\PCB-Tester-Relay-Board.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Output\PCB-Relay-Board.xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=.\Output\Assembly\Gerber\PCB-Tester-Relay-Board.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=.\Output\Assembly\Gerber\PCB-Tester-Relay-Board.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=.\Output\Assembly\Gerber\PCB-Tester-Relay-Board.GD1
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=.\Output\Assembly\Gerber\PCB-Tester-Relay-Board.GG1
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=.\Output\Assembly\Gerber\PCB-Tester-Relay-Board.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=.\Output\Design\DRC\PCB-Tester-Relay-Board.html
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=.\Output\Design\ERC\PCB-Tester-Relay-Board.html
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=.\Output\Assembly\Gerber\PCB-Tester-Relay-Board.REP
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=.\Output\Assembly\Gerber\PCB-Tester-Relay-Board.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Output\PCB-Tester-Relay-Board.xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Output\Assembly\Pick Place\Pick Place for PCB-Relay-Board.txt
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=.\Output\Assembly\Pick Place\Pick Place for PCB-Tester-Relay-Board.txt
+DocumentPath=Output\Assembly\Pick Place\Pick Place for PCB-Tester-Relay-Board.txt
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Project_Author
-Value=Hören
+Name=Project_Team
+Value=Semi-ATE
 
 [Parameter2]
-Name=Project_CheckedBy
-Value=Mörz
+Name=Project_Revision
+Value=V1.0
 
 [Parameter3]
-Name=Project_DrawnBy
-Value=Rudziński
+Name=Project_Repository
+Value=https://github.com/Semi-ATE/PCB-Tester
 
 [Parameter4]
-Name=Project_Engineer
-Value=Hören
+Name=Project_Number
+Value=U33111
 
 [Parameter5]
 Name=Project_Name
 Value=PCB-Relay-Board
 
 [Parameter6]
-Name=Project_Number
-Value=U33111
+Name=Project_Engineer
+Value=Hören
 
 [Parameter7]
-Name=Project_Repository
-Value=https://github.com/Semi-ATE/PCB-Tester
+Name=Project_DrawnBy
+Value=Rudziński
 
 [Parameter8]
-Name=Project_Revision
-Value=V1.0
+Name=Project_CheckedBy
+Value=Mörz
 
 [Parameter9]
-Name=Project_Team
-Value=Semi-ATE
+Name=Project_Author
+Value=Hören
 
 [Configuration1]
 Name=Sources

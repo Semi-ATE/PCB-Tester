@@ -81,11 +81,11 @@ Configuration4_Name1=OutputConfigurationParameter1
 Configuration4_Item1=tToolDia=2000000|GenerateBoardEdgeRout=True|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=True|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes
 
 [PublishSettings]
-OutputFilePath2=C:\Users\hoeren\Desktop\Repos\Semi-ATE\PCB-Tester\hardware\electronics\altium\20.1.12\PCB-Tester-Relay-Board\.\Output\Fabrication\Fabrication.PDF
+OutputFilePath2=C:\Users\hoeren\Desktop\Repos\Semi-ATE\PCB-Tester\hardware\electronics\altium\20.1.12\PCB-Tester-Relay-Board\.\..\..\..\..\..\output\PCB-Tester-Relay-Board\PCB\Fabrication\Fabrication.PDF
 ReleaseManaged2=0
 OutputBasePath2=.\
-OutputPathMedia2=Output\Fabrication
-OutputPathMediaValue2=Output\Fabrication
+OutputPathMedia2=..\..\..\..\..\output\PCB-Tester-Relay-Board\PCB\Fabrication
+OutputPathMediaValue2=..\..\..\..\..\output\PCB-Tester-Relay-Board\PCB\Fabrication
 OutputPathOutputer2=[Output Type]
 OutputPathOutputerPrefix2=
 OutputPathOutputerValue2=
@@ -93,7 +93,7 @@ OutputFileName2=Fabrication.PDF
 OutputFileNameMulti2=
 UseOutputNameForMulti2=1
 OutputFileNameSpecial2=
-OpenOutput2=1
+OpenOutput2=0
 PromptOverwrite2=0
 PublishMethod2=0
 ZoomLevel2=50
@@ -108,11 +108,11 @@ ShowComponentParameters2=0
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Users\hoeren\Desktop\Repos\Semi-ATE\PCB-Tester\hardware\electronics\altium\20.1.12\PCB-Tester-Relay-Board\.\Output\Fabrication\
+OutputFilePath3=C:\Users\hoeren\Desktop\Repos\Semi-ATE\PCB-Tester\hardware\electronics\altium\20.1.12\PCB-Tester-Relay-Board\.\..\..\..\..\..\output\PCB-Tester-Relay-Board\PCB\Fabrication\
 ReleaseManaged3=0
 OutputBasePath3=.\
-OutputPathMedia3=Output\Fabrication
-OutputPathMediaValue3=Output\Fabrication
+OutputPathMedia3=..\..\..\..\..\output\PCB-Tester-Relay-Board\PCB\Fabrication
+OutputPathMediaValue3=..\..\..\..\..\output\PCB-Tester-Relay-Board\PCB\Fabrication
 OutputPathOutputer3=[Output Type]
 OutputPathOutputerPrefix3=
 OutputPathOutputerValue3=
@@ -123,9 +123,9 @@ OutputFileNameSpecial3=
 OpenOutput3=0
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\Users\hoeren\Desktop\Repos\Semi-ATE\PCB-Tester\hardware\electronics\altium\20.1.12\PCB-Tester-Relay-Board\.\Output\Fabrication\Fabrication.PDF
-OpenOutputs2=1
-RelativeOutputPath3=C:\Users\hoeren\Desktop\Repos\Semi-ATE\PCB-Tester\hardware\electronics\altium\20.1.12\PCB-Tester-Relay-Board\.\Output\Fabrication\
+RelativeOutputPath2=C:\Users\hoeren\Desktop\Repos\Semi-ATE\PCB-Tester\hardware\electronics\altium\20.1.12\PCB-Tester-Relay-Board\.\..\..\..\..\..\output\PCB-Tester-Relay-Board\PCB\Fabrication\Fabrication.PDF
+OpenOutputs2=0
+RelativeOutputPath3=C:\Users\hoeren\Desktop\Repos\Semi-ATE\PCB-Tester\hardware\electronics\altium\20.1.12\PCB-Tester-Relay-Board\.\..\..\..\..\..\output\PCB-Tester-Relay-Board\PCB\Fabrication\
 OpenOutputs3=0
 AddToProject3=0
 TimestampFolder3=0

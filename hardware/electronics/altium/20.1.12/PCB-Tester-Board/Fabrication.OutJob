@@ -57,7 +57,7 @@ OutputEnabled2_OutputMedium3=1
 OutputEnabled2_OutputMedium4=0
 OutputDefault2=0
 Configuration2_Name1=OutputConfigurationParameter1
-Configuration2_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16908289~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842753~1,16777220~1,16777218~1,16777219~1,16777221~1,16842754~1,16842751~1,16973835~1,16973833~1,16973831~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=True|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
+Configuration2_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16908289~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842753~1,16777219~1,16777220~1,16777221~1,16777222~1,16842754~1,16842751~1,16973835~1,16973833~1,16973831~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=True|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
 OutputType3=NC Drill
 OutputName3=NC Drill Files
 OutputCategory3=Fabrication
@@ -100,11 +100,11 @@ Configuration5_Name1=OutputConfigurationParameter1
 Configuration5_Item1=Count=1|File0=[Project Dir]\Parts\*.*|Record=NonNativeFiles
 
 [PublishSettings]
-OutputFilePath2=C:\Users\hoeren\Desktop\Repos\Semi-ATE\PCB-Tester\hardware\electronics\altium\20.1.12\PCB-Tester-Board\.\Output\Fabrication\Fabrication.PDF
+OutputFilePath2=C:\Users\hoeren\Desktop\Repos\Semi-ATE\PCB-Tester\hardware\electronics\altium\20.1.12\PCB-Tester-Board\.\..\..\..\..\..\output\PCB\Fabrication\Fabrication.PDF
 ReleaseManaged2=0
 OutputBasePath2=.\
-OutputPathMedia2=Output\Fabrication\PCB
-OutputPathMediaValue2=Output\Fabrication\PCB
+OutputPathMedia2=..\..\..\..\..\output\PCB-Tester-Board\PCB\Fabrication
+OutputPathMediaValue2=..\..\..\..\..\output\PCB-Tester-Board\PCB\Fabrication
 OutputPathOutputer2=[Output Type]
 OutputPathOutputerPrefix2=
 OutputPathOutputerValue2=
@@ -127,11 +127,11 @@ ShowComponentParameters2=0
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Users\hoeren\Desktop\Repos\Semi-ATE\PCB-Tester\hardware\electronics\altium\20.1.12\PCB-Tester-Board\.\Output\Fabrication\PCB\
+OutputFilePath3=C:\Users\hoeren\Desktop\Repos\Semi-ATE\PCB-Tester\hardware\electronics\altium\20.1.12\PCB-Tester-Board\.\..\..\..\..\..\output\PCB-Tester-Board\PCB\Fabrication\
 ReleaseManaged3=0
 OutputBasePath3=.\
-OutputPathMedia3=Output\Fabrication\PCB
-OutputPathMediaValue3=Output\Fabrication\PCB
+OutputPathMedia3=..\..\..\..\..\output\PCB-Tester-Board\PCB\Fabrication
+OutputPathMediaValue3=..\..\..\..\..\output\PCB-Tester-Board\PCB\Fabrication
 OutputPathOutputer3=[Output Type]
 OutputPathOutputerPrefix3=
 OutputPathOutputerValue3=
@@ -140,11 +140,11 @@ OutputFileNameMulti3=
 UseOutputNameForMulti3=1
 OutputFileNameSpecial3=
 OpenOutput3=0
-OutputFilePath4=C:\Users\hoeren\Desktop\Repos\Semi-ATE\PCB-Tester\hardware\electronics\altium\20.1.12\PCB-Tester-Board\.\
+OutputFilePath4=C:\Users\hoeren\Desktop\Repos\Semi-ATE\PCB-Tester\hardware\electronics\altium\20.1.12\PCB-Tester-Board\.\..\..\..\..\..\output\PCB-Tester-Board\
 ReleaseManaged4=0
 OutputBasePath4=.\
-OutputPathMedia4=Output\Fabrication
-OutputPathMediaValue4=Output\Fabrication
+OutputPathMedia4=..\..\..\..\..\output\PCB-Tester-Board
+OutputPathMediaValue4=..\..\..\..\..\output\PCB-Tester-Board
 OutputPathOutputer4=
 OutputPathOutputerPrefix4=
 OutputPathOutputerValue4=
@@ -155,9 +155,9 @@ OutputFileNameSpecial4=
 OpenOutput4=1
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\Users\hoeren\Desktop\Repos\Semi-ATE\PCB-Tester\hardware\electronics\altium\20.1.12\PCB-Tester-Board\.\Output\Fabrication\Fabrication.PDF
+RelativeOutputPath2=C:\Users\hoeren\Desktop\Repos\Semi-ATE\PCB-Tester\hardware\electronics\altium\20.1.12\PCB-Tester-Board\.\..\..\..\..\..\output\PCB\Fabrication\Fabrication.PDF
 OpenOutputs2=0
-RelativeOutputPath3=C:\Users\hoeren\Desktop\Repos\Semi-ATE\PCB-Tester\hardware\electronics\altium\20.1.12\PCB-Tester-Board\.\Output\Fabrication\PCB\
+RelativeOutputPath3=C:\Users\hoeren\Desktop\Repos\Semi-ATE\PCB-Tester\hardware\electronics\altium\20.1.12\PCB-Tester-Board\.\..\..\..\..\..\output\PCB-Tester-Board\PCB\Fabrication\
 OpenOutputs3=0
 AddToProject3=0
 TimestampFolder3=0
@@ -167,7 +167,7 @@ OpenGerberOutput3=0
 OpenNCDrillOutput3=0
 OpenIPCOutput3=0
 EnableReload3=0
-RelativeOutputPath4=C:\Users\hoeren\Desktop\Repos\Semi-ATE\PCB-Tester\hardware\electronics\altium\20.1.12\PCB-Tester-Board\.\
+RelativeOutputPath4=C:\Users\hoeren\Desktop\Repos\Semi-ATE\PCB-Tester\hardware\electronics\altium\20.1.12\PCB-Tester-Board\.\..\..\..\..\..\output\PCB-Tester-Board\
 OpenOutputs4=1
 AddToProject4=1
 TimestampFolder4=0

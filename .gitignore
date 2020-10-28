@@ -10,7 +10,6 @@
 ### build artifacts     ###
 ###########################
 output
-!output/README.md
 
 ###########################
 ### Windows shit        ###
