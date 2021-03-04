@@ -1,0 +1,58 @@
+{% extends "index/base.html" %}
+{% block css %}
+<style>
+#tablediv{
+    overflow: auto;
+    white-space: nowrap;
+}
+#pdf-button{
+    white-space: nowrap;
+}
+</style>
+{% endblock css %}
+{% block content %}
+  <div class="container">
+    <div class="row content-section" id="tablediv">
+    <table width="2000px" class="table table-bordered" id="table">
+      <thead>
+        <tr>
+          <th scope="col">Pluginid</th>
+          <th scope="col">Starttime</th>
+          <th scope="col">Endtime</th>
+          <th scope="col">Username</th>
+          <th scope="col">Packagename</th>
+          <th scope="col">Version</th>
+          <th scope="col">Scriptname</th>
+          <th scope="col">Resultstate</th>
+          <th scope="col">Resultmessage</th>
+          <th scope="col">Log</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for plugin in plugins %}
+            <tr>
+              <th scope="row">{{ plugin.id }}</th>
+              <td>{{ plugin.starttime|date:'Y-m-d H:i:s'}}</td>
+              <td>{{ plugin.endtime|date:'Y-m-d H:i:s'}}</td>
+              <td>{{ plugin.username}}</td>
+              <td>{{ plugin.packagename}}</td>
+              <td>{{ plugin.version}}</td>
+              <td>{{ plugin.scriptname}}</td>
+              <td>{{ plugin.resultstate}}</td>
+              <td>{{ plugin.resultmessage}}</td>
+              <td>{{ plugin.log|truncatechars:20 }}</td>
+            </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    </div>
+    <div class="row justify-content-between content-section">
+      <div class="col-0">
+        <a class="btn btn-outline-secondary" href="{% url 'download_excel' %}">Download as excel file</a>
+      </div>
+      <div class="col-2">
+        <a class="btn btn-outline-secondary" id="pdf-button" href="{% url 'download_pdf' %}">Download as pdf file</a>
+      </div>
+    </div>
+  </div>
+{% endblock content %}

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pcbtesterinterface
+Version: 0.0.1
+Summary: The interface for the pcbtester
+Home-page: https://github.com/Semi-ATE/sampleproject
+Author: Marco Mörz
+Author-email: marcomoerz@gmail.com
+License: UNKNOWN
+Description: This is the viewinterface for the pcb-tester. The viewinterface is a separate module so that it is possible to change the view.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

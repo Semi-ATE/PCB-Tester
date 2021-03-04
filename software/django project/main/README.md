@@ -1,0 +1,1 @@
+This is the viewinterface for the pcb-tester. The viewinterface is a separate module so that it is possible to change the view.
