@@ -1,0 +1,14 @@
+===================================
+Configuration Memory information
+===================================
+File Format        MCS
+Interface          SPIX4
+Size               16M
+Start Address      0x00000000
+End Address        0x00FFFFFF
+Checksum           0xF600CA97
+Fill Value         0xFF
+
+Addr1         Addr2         Date                    File(s)                                                                                                        Checksum
+0x00000000    0x00093F83    Sep 22 14:15:26 2020    C:/Users/ar/Desktop/zzz/robota/Micronas/PCB-Tester/firmware/vivado/V191_PCB_Tester/2020_09_22_pcb_relay.bit    0x00370F13
+File Checksum Total                                                                                                                                                0x00370F13
