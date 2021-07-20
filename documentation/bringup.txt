@@ -1,0 +1,23 @@
+Bringup procedure for PCB-Tester-Board
+
+0. Disconnect the 24V PSU (on the wall) from the PCB and remove the PCB from the housing.
+1. Check if 24V from the PSU is provided with correct polarity (both plugs should be wired the same way).
+2. Connect 230VAC to the power inlet and check if the PSU produces correctly 24V DC. If nothing happens, check the fuses in the drawer in the inlet.
+On the PCB:
+3. Check if there are no short-circuits at testpoints. Remove Raspberry Pi. Connect 24V DC to X2. Check if the board produces correctly 12V rail (TP5) and 5V rails (TP10, TP13).
+4. Remove power, short jumper J15 (use tin or populate 0R) and place Raspberry Pi back in its socket.
+5. Apply power, program IRPS5401. Use the config file from directory "firmware/PowIRCenter/Build <number>/PCB-Tester-Board" (currently, <number> is 7369).
+6. Re-power the board. Check if IRPS5401 produces correctly the voltage rails: 1V (TP6), 1.8V (TP7), and 3.3V (TP9).
+7. Remove power, short jumpers J5, J6, J9, J10, J11, J12 (use tin or populate 0R).
+8. Apply power, program the configuration flash of the FPGA using the file from directory "firmware/vivado/<version>/PCB-Tester-Board" (currently <version> is 19.1).
+9. Cycle power, check if the FPGA boots up (lits LED "DONE").
+
+Bringup procedure for PCB-Relay-Board
+
+0. Check if there are no short-circuits at testpoints and that (if populated) TVSes D7, D8, D9, D10, D11 are not pulling the voltage rail and the signals to GND. Prepare working PCB-Tester-Board. Position the PCB-Relay-Board in a free slot allowing access to the board.
+1. Apply power, check if the 12V rail is ok (TP6), check the 5V rail (TP5) and the 3.3V rail (TP7).
+2. Program IRPS5401. Use the config file from directory "firmware/PowIRCenter/Build <number>/PCB-Relay-Board" (currently, <number> is 7369).
+3. Cycle power, check if the voltage rails are produced correctly: 1V (TP1), 1.8V (TP2), and 3.3V (TP4).
+4. Remove power, remove the board from the slot. Short jumpers J1, J2, J4, J5, J8, J9 (use tin or populate 0R).
+5. Position the board in the slot, apply power. Program the configuration flash of the FPGA using the file from directory "firmware/vivado/<version>/PCB-Relay-Board" (currently <version> is 19.1).
+6. Cycle power, check if the FPGA boots up (lits LED "DONE").
